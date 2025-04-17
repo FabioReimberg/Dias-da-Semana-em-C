@@ -1,0 +1,52 @@
+// bibliotecas
+#include<stdio.h>
+#include <conio.h>
+
+// função Main e Variáveis Globais
+int main() {
+    int dia_semana;
+    
+// Introduzir Valores de Variável
+    printf("Os dias da semana em números de 1 a 7: ");
+    scanf("%d", &dia_semana);
+
+// Imprimir Dia da Semana correspondente
+switch (dia_semana)
+  {
+    case 1 :
+    printf ("Esse número corresponde a: Domingo\n");
+    break;
+    
+    case 2 :
+    printf ("Esse número corresponde a: Segunda\n");
+    break;
+    
+    case 3 :
+    printf ("Esse número corresponde a: Terça\n");
+    break;
+    
+    case 4 :
+    printf ("Esse número corresponde a: Quarta\n");
+    break;
+    
+    case 5 :
+    printf ("Esse número corresponde a: Quinta\n");
+    break;
+    
+    case 6 :
+    printf ("Esse número corresponde a: Sexta\n");
+    break;
+    
+    case 7 :
+    printf ("Esse número corresponde a: Sabado\n");
+    break;
+    
+    default :
+    printf ("Valor invalido!\n");
+  }
+  
+  getch();
+  return 0;
+}
+  
+  
