@@ -1,0 +1,23 @@
+// bibliotecas
+#include<stdio.h>
+#include <conio.h>
+
+// função Main e Variáveis Globais
+int main() {
+    int n;
+    int n1;
+    
+// Definir loop 1
+    for (n = 1; n < 11; n++) {
+      printf("%d\t", n);
+
+} 
+// Definir loop 2
+    for (n1 = 10; n1 > 0; n1--) {
+      printf("%d\t", n1);
+}
+  
+  return 0;
+}
+  
+  
