@@ -1,0 +1,21 @@
+// bibliotecas
+#include<stdio.h>
+#include <conio.h>
+
+// função Main e Variáveis Globais
+int main() {
+    int numero = 0;
+    int deitome = 0;
+    
+// Definir loop 1
+
+while (deitome <= 5) {
+  printf("%d\n", numero);
+  numero +=2;
+  deitome++;
+}
+
+  return 0;
+}
+  
+  
